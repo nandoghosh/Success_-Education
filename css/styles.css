@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body
+{background-color: #F6FBFF;}
+:root {
+    --pink: #162441;
+}
+
+/* text */
+.text-color{
+    color: #c01842 !important;
+}
+
+.text-color-p{
+    color: #162441 !important;
+}
+/* Nav Part */
+.logo {
+    color: var(--pink);
+}
+
+.nav-link:hover {
+    color: var(--pink) !important;
+}
+
+.nav-btns button:hover {
+    border-color: var(--pink);
+}
+
+/* Banner Part */
+.banner-img-1 {
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
+.banner-img-2 {
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
+.banner-img-3 {
+    background-image: url(../images/3.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
+/* Button Color */
+.btn-primary-color {
+    color: #ffffff;
+    background-color: #c01842;
+    border-radius: 0px;
+    padding: 15px 30px;
+}
+
+.btn-primary-color:hover {
+    color: #162441;
+    background-color: #ffffff;
+    border-color: #162441;
+    border-radius: 0px;
+    border-width: 2px;
+}
+
+.card-btn-color {
+    color: #ffffff;
+    background: #c01842;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.card-btn-color:hover {
+    color: #162441;
+    background-color: #ffffff;
+    border-color: #162441;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+
+.work{
+    height: 250px;
+    width: 250px;
+    color: #ffffff;
+    border-radius: 100%;
+    background: linear-gradient(to right, #c01842 0%, #ff6699 100%);
+}
+/* Footer */
+.footer-text {
+    color: #ffffff;
+}
+
+.footer-text:hover {
+    color: #FD80AB;
+}
+
+.footer-icon {
+    color: #ffffff;
+}
+
+.footer-icon:hover {
+    color: #FD80AB;
+}
+
+.footer-color {
+    background-color: #172B43;
+}
+
+.footer-copy {
+    background-color: #0E1F33;
+}
+
+
+/* .content-block .card {
+    position: relative;
+    z-index: 9;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.content-block .card::before {
+    background-image: linear-gradient(45deg, #e9a17b, #ff7cb0);
+}
+
+.content-block .card::before {
+    content: " ";
+    width: 95%;
+    height: 95%;
+    z-index: 0;
+    position: absolute;
+    top: auto;
+    bottom: 1px;
+    left: 1px;
+    border-radius: 12px;
+    background-image: linear-gradient(100deg, #e9a17b, #ff7cb0);
+    background-repeat: repeat-x;
+    outline: 1px solid transparent;
+    transition: all .5s;
+    transition: all .5s;
+}
+
+ .card:hover::before {
+    content: " ";
+    width: 95%;
+    height: 95%;
+    z-index: 0;
+    position: absolute;
+    top: auto;
+    bottom: 1px;
+    left: 1px;
+    border-radius: 12px;
+    background-image: linear-gradient(100deg, #e9a17b, #ff7cb0);
+    background-repeat: repeat-x;
+    outline: 1px solid transparent;
+    transition: all .5s;
+    transition: all .5s;
+}
+
+.content-block .card::after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 5px 35px rgba(166, 209, 237, 0.2);
+    box-shadow: 0 5px 35px rgba(166, 209, 237, 0.2);
+    z-index: 2;
+} */
+.card img:hover{
+    top: auto;
+    border-radius: 12px;
+    background-image: linear-gradient(100deg, #e9a17b, #ff7cb0);
+}
